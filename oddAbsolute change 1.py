@@ -3,7 +3,7 @@ def calculateAbsolute():
     # This first line is provided for you
     in_num  = input("Enter a number: ")
 
-    if in(in_num) > 21:
+    if int(in_num) > 21:
         diff = abs((int(in_num) - 21) * 2)
     else:
         diff = abs(int(in_num) - 21)
