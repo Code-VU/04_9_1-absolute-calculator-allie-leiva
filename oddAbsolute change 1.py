@@ -4,9 +4,9 @@ def calculateAbsolute():
     in_num  = input("Enter a number: ")
 
     if in(input_num) > 21:
-        diff =abs((int(input_num) - 21) * 2)
+        diff =abs((int(in_num) - 21) * 2)
     else:
-        Diff = abs(int(input_num) - 21)
+        Diff = abs(int(in_num) - 21)
 
     print("Result:", diff)
     # end assignment
